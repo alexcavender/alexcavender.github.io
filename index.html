@@ -23,15 +23,18 @@ layout: default
   <div class="popup">
     <div class="container align-left">
       <h1>Contact Me</h1>
-    <form class="email-me">
+    <form class="email-me" action="http://formspree.io/alexcavender@gmail.com" method="POST">
 
-        <input required class="name" type="text" placeholder="Name">
+        <input name="name" required class="name" type="text" placeholder="Name">
 
-        <input required class="email" type="email" placeholder="Email address">
+        <input name="_replyto" required class="email" type="email" placeholder="Email address" >
 
-        <textarea required class="message" rows="5" cols="20" placeholder="Message"></textarea>
+        <textarea name="body" required class="message" rows="5" cols="20" placeholder="Message"></textarea>
 
-        <input type="submit" class="send" value="Send!">
+
+        <input type="text" name="_gotcha" style="display:none" />
+
+        <input type="submit" class="send" value="Send">
     </form>
 
   </div>
