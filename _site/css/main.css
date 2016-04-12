@@ -146,3 +146,17 @@ a:hover, .contact-me:hover {
 @media (max-width: 768px) {
   .popup h1 {
     font-size: 30px; } }
+#hiyoo_hype_container {
+  position: absolute !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
+  height: 100% !important; }
+
+.HYPE_scene {
+  position: absolute;
+  width: 100% !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0;
+  background: transparent !important; }
