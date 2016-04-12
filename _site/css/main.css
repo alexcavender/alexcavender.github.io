@@ -151,7 +151,8 @@ a:hover, .contact-me:hover {
   left: 0 !important;
   right: 0 !important;
   width: 100% !important;
-  height: 100% !important; }
+  height: 100% !important;
+  z-index: -1; }
 
 .HYPE_scene {
   position: absolute;
