@@ -14,8 +14,11 @@ layout: default
     <h4><a target="_blank" href="http://meteor.com">Meteor</a></h4>
     <h4><a target="_blank" href="http://smarterer.com/scores/df703477aad287cfd16b75142445765e">CSS</a></h4>
     <h4><a target="_blank" href="http://smarterer.com/scores/2f4a315107eb06b98e56a16e80697b5e">HTML</a></h4>
-
-
+    {% if site.github_username %}
+      <h4><a target="_blank" href="https://github.com/{{ site.github_username }}">GitHub</a></h4>
+    {% endif %}
+         
+          
 
     <h2 class="contact-me"><a href="#">Contact Me</a></h2>
   </div>
