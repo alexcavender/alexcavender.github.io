@@ -20,7 +20,7 @@ $( document ).ready(function() {
       event.stopPropagation();
     }
     else {
-      hidePopUp();
+      //hidePopUp();
     }
   });
 
