@@ -62,7 +62,7 @@ layout: default
 <div class="home">
   <div class="container">
   {% for post in site.posts %}
-    <time>{{post.date}}</time>
+    <time>{{post.date | date: '%B %d, %Y'}}</time>
     <h2>{{post.title}}</h2>
     
     {{post.content | markdownify}}

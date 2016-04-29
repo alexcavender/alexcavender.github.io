@@ -30,7 +30,7 @@ body {
     background-position: center center !important;
     background-size: cover !important;
     width: 100vw;
-    height: 100vh !important;
+    height: 88vh !important;
     -webkit-font-smoothing: antialiased;
     a {
         color: #FFF;
@@ -199,13 +199,23 @@ a:hover, .contact-me:hover {
 
 
 .home {
+
     .container {
         width: 720px;
         padding: 60px;
         * {
-            margin-top: 20px;
-            margin-bottom: 20px;
+            margin-top: 16px;
+            margin-bottom: 16px;
+            letter-spacing: -.01em;
         }
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 36px;
     }
 
     img {

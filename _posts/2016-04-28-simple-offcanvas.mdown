@@ -9,5 +9,5 @@ Using CSS3 and jQuery
 
 ![Off canvas](/assets/wrangle.jpg)
 
-<a href="http://codepen.io/acavender/full/yORKMW/">Check out my codepen here</a>
+<a target="_blank" href="http://codepen.io/acavender/full/yORKMW/">Check out my codepen here</a>
 
