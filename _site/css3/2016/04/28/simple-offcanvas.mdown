@@ -36,9 +36,8 @@
 
 ![Off canvas](/assets/wrangle.jpg)
 
-Check out my codepen here:
+<a href="http://codepen.io/acavender/full/yORKMW/">Check out my codepen here</a>
 
-http://codepen.io/acavender/full/yORKMW/	
 
   </div>
 
