@@ -26,6 +26,7 @@ body {
   background-repeat: no-repeat;
   background-position: center center !important;
   background-size: cover !important;
+  background-attachment: fixed;
   height: 88vh !important;
   padding: 18px; }
   .bg a {
