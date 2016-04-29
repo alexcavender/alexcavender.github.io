@@ -7,7 +7,7 @@ categories: css3
 
 Using CSS3 and jQuery
 
-![Off canvas](/assets/wrangle.jpg)
+![Off canvas navigation how-to](/assets/wrangle.jpg)
 
 <a target="_blank" href="http://codepen.io/acavender/pen/yORKMW">Check out the codepen here</a>
 
