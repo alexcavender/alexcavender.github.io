@@ -163,8 +163,8 @@ a:hover, .contact-me:hover {
   background: transparent !important; }
 
 .home .container {
-  width: 720px;
-  padding: 60px; }
+  max-width: 720px;
+  padding: 40px 20px; }
   .home .container * {
     margin-top: 16px;
     margin-bottom: 16px;

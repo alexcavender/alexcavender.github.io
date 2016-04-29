@@ -201,8 +201,9 @@ a:hover, .contact-me:hover {
 .home {
 
     .container {
-        width: 720px;
-        padding: 60px;
+        
+        max-width: 720px;
+        padding: 40px 20px;
         * {
             margin-top: 16px;
             margin-bottom: 16px;
