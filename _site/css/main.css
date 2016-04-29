@@ -29,6 +29,8 @@ body {
   width: 100vw;
   height: 100vh !important;
   -webkit-font-smoothing: antialiased; }
+  .bg a {
+    color: #FFF; }
 
 .container {
   max-width: 89.6%;
@@ -44,7 +46,6 @@ body {
 
 a {
   transition: .2s;
-  color: #FFF;
   text-decoration: none; }
 
 h1, h2, h3, h4, span {

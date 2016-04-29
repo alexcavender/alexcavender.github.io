@@ -32,6 +32,9 @@ body {
     width: 100vw;
     height: 100vh !important;
     -webkit-font-smoothing: antialiased;
+    a {
+        color: #FFF;
+    }
 }
 
 .container {
@@ -51,7 +54,7 @@ body {
 
 a {
     transition: .2s;
-    color: #FFF;
+    
     text-decoration: none;
 }
 
