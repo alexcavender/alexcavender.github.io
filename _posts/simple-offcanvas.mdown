@@ -1,7 +1,0 @@
----
-layout: post
-title:  "How to make a simple off-canvas navigation with CSS 3 and jQuery"
-date:   2016-04-28 12:53:07 -0400
-categories: css3
----
-Test

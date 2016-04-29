@@ -14,20 +14,20 @@ layout: default
     <h4><a target="_blank" href="http://smarterer.com/scores/6cbf00a46441bd1a1971a579c1cabe2c">PHP</a></h4>
     
     <h4><a target="_blank" href="http://smarterer.com/scores/14fbb824111a9c4220b217d3c5160c52">Javascript + jQuery</a></h4>
+    
     <h4><a target="_blank" href="http://meteor.com">Meteor</a></h4>
+    
     <h4><a target="_blank" href="http://smarterer.com/scores/28e00561f5e687a7dd081ab9dab36b7b">WordPress</a></h4>
+    
     <h4><a target="_blank" href="http://smarterer.com/scores/df703477aad287cfd16b75142445765e">CSS</a></h4>
+    
     <h4><a target="_blank" href="http://smarterer.com/scores/2f4a315107eb06b98e56a16e80697b5e">HTML</a></h4>
     
     {% if site.github_username %}
       <h4><a target="_blank" href="https://github.com/{{ site.github_username }}">GitHub</a></h4>
-    {% endif %}
-         
-          
+    {% endif %}        
 
     <h2 class="contact-me"><a href="#">Contact Me</a></h2>
-
-   
 
   </div>
 
@@ -60,7 +60,15 @@ layout: default
 
 
 <div class="home">
+  <div class="container">
+  {% for post in site.posts %}
+    <time>{{post.date}}</time>
+    <h2>{{post.title}}</h2>
+    
+    {{post.content | markdownify}}
 
-{% for post in site.posts %}
-{% endfor %}
+  {% endfor %}
+
+  </div>
+</div>
 

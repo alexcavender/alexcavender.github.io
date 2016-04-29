@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "How to create a simple off-canvas navigation menu"
+date:   2016-04-28 12:53:07 -0400
+categories: css3
+---
+
+Using CSS3 and jQuery
+
+![Off canvas](/assets/wrangle.jpg)
+
+Check out my codepen here:
+
+http://codepen.io/acavender/full/yORKMW/	
