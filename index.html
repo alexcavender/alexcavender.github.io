@@ -3,44 +3,72 @@ layout: default
 ---
 
 <div class="bg">
+ <div id="hiyoo_hype_container" style="margin:auto;position:relative;width:600px;height:400px;overflow:hidden;" aria-live="polite">
+      <script type="text/javascript" charset="utf-8" src="hiyoo.hyperesources/hiyoo_hype_generated_script.js?56750"></script>
+    </div>
   <div class="container align-right">
     <h1>Alex Cavender</h1>
     <h2 class="web-dev">Web Developer</h2>
 
 
     <h4><a target="_blank" href="http://smarterer.com/scores/6cbf00a46441bd1a1971a579c1cabe2c">PHP</a></h4>
-    <h4><a target="_blank" href="http://smarterer.com/scores/28e00561f5e687a7dd081ab9dab36b7b">WordPress</a></h4>
+    
     <h4><a target="_blank" href="http://smarterer.com/scores/14fbb824111a9c4220b217d3c5160c52">Javascript + jQuery</a></h4>
+    
     <h4><a target="_blank" href="http://meteor.com">Meteor</a></h4>
+    
+    <h4><a target="_blank" href="http://smarterer.com/scores/28e00561f5e687a7dd081ab9dab36b7b">WordPress</a></h4>
+    
     <h4><a target="_blank" href="http://smarterer.com/scores/df703477aad287cfd16b75142445765e">CSS</a></h4>
+    
     <h4><a target="_blank" href="http://smarterer.com/scores/2f4a315107eb06b98e56a16e80697b5e">HTML</a></h4>
-
-
+    
+    {% if site.github_username %}
+      <h4><a target="_blank" href="https://github.com/{{ site.github_username }}">GitHub</a></h4>
+    {% endif %}        
 
     <h2 class="contact-me"><a href="#">Contact Me</a></h2>
+
   </div>
 
   <div class="popup">
     <div class="container align-left">
-      <h1>Contact Me</h1>
-    <form class="email-me" action="http://formspree.io/alexcavender@gmail.com" method="POST">
+        <h1>Contact Me</h1>
+      <form class="email-me" action="http://formspree.io/alexcavender@gmail.com" method="POST">
 
-        <input name="name" type="text" placeholder="Name" required>
-        <input name="_replyto" type="email" placeholder="Email address" required>
-        <textarea name="body" rows="5" cols="20" placeholder="Message" required></textarea>
-        <input type="text" name="_gotcha" style="display:none" />
-        <input type="submit" class="send" value="Send">
-    </form>
+          <input name="name" type="text" placeholder="Name" required>
+          <input name="_replyto" type="email" placeholder="Email address" required>
+          <textarea name="body" rows="5" cols="20" placeholder="Message" required></textarea>
+          <input type="text" name="_gotcha" style="display:none" />
+          <input type="submit" class="send" value="Send">
+      </form>
 
-  </div>
+    </div>
   </div>  
-
-  <span class="success">Email Sent Successfully!</span>
 
 </div>
 
-<div class="home">
+<!-- Recent Work -->
 
-{% for post in site.posts %}
-{% endfor %}
+<!-- USM interactive -->
+
+<!-- BeatStore.co -->
+
+<!-- enjoythemoment -->
+
+<!-- ethomas -->
+
+
+<div class="home">
+  <div class="container">
+  {% for post in site.posts %}
+    <time>{{post.date | date: '%B %d, %Y'}}</time>
+    <h2>{{post.title}}</h2>
+    
+    {{post.content | markdownify}}
+
+  {% endfor %}
+
+  </div>
+</div>
 
