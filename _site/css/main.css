@@ -27,7 +27,7 @@ body {
   background-position: center center !important;
   background-size: cover !important;
   background-attachment: fixed;
-  height: 88vh !important;
+  min-height: 88vh !important;
   padding: 18px; }
   .bg a {
     color: #FFF; }
