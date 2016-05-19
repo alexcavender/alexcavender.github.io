@@ -6,22 +6,21 @@
 </description>
     <link>http://alexcavender.com/</link>
     <atom:link href="http://alexcavender.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 19 May 2016 17:29:23 -0400</pubDate>
-    <lastBuildDate>Thu, 19 May 2016 17:29:23 -0400</lastBuildDate>
+    <pubDate>Thu, 19 May 2016 17:30:40 -0400</pubDate>
+    <lastBuildDate>Thu, 19 May 2016 17:30:40 -0400</lastBuildDate>
     <generator>Jekyll v3.1.3</generator>
     
       <item>
-        <title>New WordPress Plugin: Automatic CSV Export</title>
-        <description>Now available on GitHub
+        <title>New WordPress Plugin: Gravity Forms Automatic CSV Export</title>
+        <description>&lt;a target=&quot;_blank&quot; href=&quot;https://github.com/alexcavender/Gravity-Forms-Automatic-Export-to-CSV&quot;&gt;Now available on GitHub&lt;/a&gt;
 
-![Off canvas navigation how-to](/assets/wrangle.jpg)
 
-&lt;a target=&quot;_blank&quot; href=&quot;http://codepen.io/acavender/pen/yORKMW&quot;&gt;Check out the codepen here&lt;/a&gt;
+![Wordpress Automatic CSV Export](/assets/ducreux.jpg)
 
 </description>
-        <pubDate>Wed, 18 May 2016 12:53:07 -0400</pubDate>
-        <link>http://alexcavender.com/wordpress,/plugins/2016/05/18/new-plugin-automatic-csv-export.mdown</link>
-        <guid isPermaLink="true">http://alexcavender.com/wordpress,/plugins/2016/05/18/new-plugin-automatic-csv-export.mdown</guid>
+        <pubDate>Thu, 19 May 2016 05:03:07 -0400</pubDate>
+        <link>http://alexcavender.com/wordpress,/plugins/2016/05/19/new-plugin-automatic-csv-export.mdown</link>
+        <guid isPermaLink="true">http://alexcavender.com/wordpress,/plugins/2016/05/19/new-plugin-automatic-csv-export.mdown</guid>
         
         
         <category>wordpress,</category>
