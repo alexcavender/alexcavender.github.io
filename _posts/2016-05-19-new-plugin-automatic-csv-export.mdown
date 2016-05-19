@@ -8,5 +8,5 @@ categories: wordpress, plugins
 <a target="_blank" href="https://github.com/alexcavender/Gravity-Forms-Automatic-Export-to-CSV">Now available on GitHub</a>
 
 
-![Wordpress Automatic CSV Export](/assets/ducreux.jpg)
+![Wordpress Automatic CSV Export](/assets/babel.jpg)
 
