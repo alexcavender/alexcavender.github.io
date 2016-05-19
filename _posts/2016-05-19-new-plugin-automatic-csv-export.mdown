@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "New WordPress Plugin: Gravity Forms Automatic CSV Export"
+title:  "New WordPress Plugin: Gravity Forms Automatic Export to CSV"
 date:   2016-05-19 5:03:07 -0400
 categories: wordpress, plugins
 ---
