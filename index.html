@@ -62,10 +62,15 @@ layout: default
 <div class="home">
   <div class="container">
   {% for post in site.posts %}
-    <time>{{post.date | date: '%B %d, %Y'}}</time>
-    <h2>{{post.title}}</h2>
+    <article class="single-blog-post">
+      
+      <time>{{post.date | date: '%B %d, %Y'}}</time>
+      
+      <h2>{{post.title}}</h2>
     
-    {{post.content | markdownify}}
+      {{post.content | markdownify}}
+   
+    </article>
 
   {% endfor %}
 

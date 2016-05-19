@@ -183,3 +183,8 @@ a:hover, .contact-me:hover {
   font-family: 'Helvetica Neue', 'Arial', sans-serif;
   text-transform: none;
   font-weight: bold; }
+
+.single-blog-post {
+  display: block;
+  overflow: hidden;
+  padding: 100px 0; }
