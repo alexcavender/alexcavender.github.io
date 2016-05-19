@@ -33,9 +33,11 @@
   <div class="post-content" itemprop="articleBody">
     Using CSS3 and jQuery
 
+<a target="_blank" href="http://codepen.io/acavender/pen/yORKMW">Check out the codepen here</a>
+
 ![Off canvas navigation how-to](/assets/wrangle.jpg)
 
-<a target="_blank" href="http://codepen.io/acavender/pen/yORKMW">Check out the codepen here</a>
+
 
 
   </div>
