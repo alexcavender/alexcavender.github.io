@@ -10,5 +10,3 @@ categories: wordpress, plugins
 
 ![Wordpress Automatic CSV Export](/assets/ducreux.jpg)
 
-
-
