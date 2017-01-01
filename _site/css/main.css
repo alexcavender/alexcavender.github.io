@@ -85,6 +85,7 @@ a:hover, .contact-me:hover {
   font-weight: 200; }
 
 .close-me {
+  transition: .5s;
   position: absolute;
   z-index: 99999999;
   color: white;
@@ -96,6 +97,8 @@ a:hover, .contact-me:hover {
   width: 33px;
   text-align: center;
   height: 32px; }
+  .close-me:hover {
+    opacity: 0.6; }
 
 .popup {
   transition: .5s;
