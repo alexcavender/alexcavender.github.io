@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>How to create a simple off-canvas navigation menu</title>
-  <meta name="description" content="Using CSS3 and jQuery">
+  <title>New WordPress Plugin: Gravity Forms Automatic Export to CSV</title>
+  <meta name="description" content="Now available on GitHub">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://alexcavender.com/css3/2016/04/28/simple-offcanvas.mdown">
+  <link rel="canonical" href="http://alexcavender.com/wordpress,/plugins/2016/05/19/new-plugin-automatic-csv-export.mdown">
   <link rel="alternate" type="application/rss+xml" title="AlexCavender.com" href="http://alexcavender.com/feed.xml">
   <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
   <script src="/js/main.js"></script>
@@ -26,18 +26,15 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">How to create a simple off-canvas navigation menu</h1>
-    <p class="post-meta"><time datetime="2016-04-28T12:53:07-04:00" itemprop="datePublished">Apr 28, 2016</time></p>
+    <h1 class="post-title" itemprop="name headline">New WordPress Plugin: Gravity Forms Automatic Export to CSV</h1>
+    <p class="post-meta"><time datetime="2016-05-19T05:03:07-04:00" itemprop="datePublished">May 19, 2016</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    Using CSS3 and jQuery
-
-<a target="_blank" href="http://codepen.io/acavender/pen/yORKMW">Check out the codepen here</a>
-
-![Off canvas navigation how-to](/assets/wrangle.jpg)
+    <a target="_blank" href="https://github.com/alexcavender/Gravity-Forms-Automatic-Export-to-CSV">Now available on GitHub</a>
 
 
+![Wordpress Automatic CSV Export](/assets/babel.jpg)
 
 
   </div>

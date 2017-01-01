@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "New WordPress Plugin: Gravity Forms Automatic Export to CSV"
+date:   2016-05-19 5:03:07 -0400
+categories: wordpress, plugins
+---
+
+<a target="_blank" href="https://github.com/alexcavender/Gravity-Forms-Automatic-Export-to-CSV">Now available on GitHub</a>
+
+
+![Wordpress Automatic CSV Export](/assets/babel.jpg)
+
