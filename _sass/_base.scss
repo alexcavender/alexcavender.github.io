@@ -116,9 +116,9 @@ a:hover, .contact-me:hover {
     right: 0;
     bottom: 0;
     border: none;
-    background: rgba(0,0,0,0.68);
+    background: rgba(0,0,0,0.78);
     padding: 15px;
-
+    z-index: 99999;
 }
 
 .popup h1 {

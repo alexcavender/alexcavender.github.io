@@ -24,4 +24,8 @@ $( document ).ready(function() {
     }
   });
 
+  $('.close-me').click(function(event){
+   hidePopUp();
+  });
+
 });
