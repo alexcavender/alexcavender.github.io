@@ -86,6 +86,7 @@ a:hover, .contact-me:hover {
 
 .close-me {
   transition: .5s;
+  cursor: pointer;
   position: absolute;
   z-index: 99999999;
   color: white;
