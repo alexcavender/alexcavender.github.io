@@ -10,8 +10,8 @@
   <meta name="description" content="Now available on GitHub">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://alexcavender.com/wordpress,/plugins/2016/05/19/new-plugin-automatic-csv-export.mdown">
-  <link rel="alternate" type="application/rss+xml" title="AlexCavender.com" href="http://alexcavender.com/feed.xml">
+  <link rel="canonical" href="http://localhost:4000/wordpress,/plugins/2016/05/19/new-plugin-automatic-csv-export.mdown">
+  <link rel="alternate" type="application/rss+xml" title="AlexCavender.com" href="http://localhost:4000/feed.xml">
   <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
   <script src="/js/main.js"></script>
 </head>
