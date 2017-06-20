@@ -1,4 +1,7 @@
-$( document ).ready(function() {
+$( function() {
+  
+  $( ".draggable" ).draggable();
+  $( ".dialog" ).dialog();
 
   function hidePopUp() {
      $('.popup').css('opacity', '0');
@@ -18,9 +21,6 @@ $( document ).ready(function() {
   $('.popup').click(function(event) {      
     if ( $( event.target).is('.email-me') || $( event.target).is('.name') || $( event.target).is('.email') || $( event.target).is('.message') || $( event.target).is('.send') ) {
       event.stopPropagation();
-    }
-    else {
-      //hidePopUp();
     }
   });
 

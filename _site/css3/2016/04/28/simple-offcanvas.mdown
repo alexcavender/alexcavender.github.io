@@ -10,9 +10,11 @@
   <meta name="description" content="Using CSS3 and jQuery">
 
   <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   <link rel="canonical" href="http://localhost:4000/css3/2016/04/28/simple-offcanvas.mdown">
   <link rel="alternate" type="application/rss+xml" title="AlexCavender.com" href="http://localhost:4000/feed.xml">
   <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
   <script src="/js/main.js"></script>
 </head>
 
