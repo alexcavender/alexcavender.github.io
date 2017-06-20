@@ -56,7 +56,7 @@ a {
 
 h1,h2,h3,h4,span {
     font-family: 'Helvetica Neue', 'Arial', sans-serif;
-    color: #FFF;
+    
     font-weight: 300;
 }
 
@@ -85,6 +85,12 @@ a:hover, .contact-me:hover {
     color: #A1AABD !important;
 }
 
+
+.dialog {
+    h4, .ui-dialog-title {
+        color: #111;
+    }
+}
 
 .web-dev {
     letter-spacing: 12px;
