@@ -91,6 +91,29 @@ a:hover, .contact-me:hover {
     }
 }
 
+
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100px;
+    color: rgb(226, 226, 226);
+
+    i {
+        margin-bottom: 8px;
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &:active {
+        background-color: rgba(200,200,200,0.2);
+    }
+}
+
+
 .web-dev {
     letter-spacing: 12px;
     margin-bottom: 100px;
