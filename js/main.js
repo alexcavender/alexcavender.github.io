@@ -1,7 +1,21 @@
 $( function() {
   
   $( ".draggable" ).draggable();
-  $( ".dialog" ).dialog();
+  $( ".dialog" ).dialog({
+    autoOpen: false,
+    show: {
+        effect: "slide",
+        duration: 1000
+      },
+      hide: {
+        effect: "fade",
+        duration: 1000
+      }
+  });
+
+  $( ".skills-icon" ).on( "click", function() {
+    $( ".skills-dialog" ).dialog( "open" );
+  });
 
   function hidePopUp() {
      $('.popup').css('opacity', '0');
