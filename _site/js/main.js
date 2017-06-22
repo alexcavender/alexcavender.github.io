@@ -4,12 +4,12 @@ $( function() {
   $( ".dialog" ).dialog({
     autoOpen: false,
     show: {
-        effect: "slide",
-        duration: 1000
+        effect: "drop",
+        duration: 300
       },
       hide: {
-        effect: "fade",
-        duration: 1000
+        effect: "drop",
+        duration: 300
       }
   });
 
