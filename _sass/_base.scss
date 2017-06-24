@@ -19,6 +19,7 @@ body {
     padding:0px;
     
 }
+
 .bg {
     position: relative;
     left: 0;
@@ -98,6 +99,7 @@ a:hover, .contact-me:hover {
 .icon {
     display: flex;
     flex-direction: column;
+    margin-bottom: 30px;
     text-align: center;
     width: 100px;
     color: rgb(226, 226, 226);
