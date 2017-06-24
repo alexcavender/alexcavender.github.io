@@ -13,8 +13,9 @@ $( function() {
       }
   });
 
-  $( ".skills-icon" ).on( "click", function() {
-    $( ".skills-dialog" ).dialog( "open" );
+  $( ".icon" ).on( "click", function() {
+    var dialog = $(this).attr( "data-dialog" );
+    $( "." + dialog ).dialog( "open" );
   });
 
   function hidePopUp() {
