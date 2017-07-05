@@ -5,23 +5,23 @@ layout: default
 <div class="bg">
 
   <div class="icon skills-icon" data-dialog="skills-dialog">
-    <i class="fa fa-file-code-o  fa-3x" aria-hidden="true"></i>
+    <i class="fa fa-file-code-o  fa-2x" aria-hidden="true"></i>
     <span>Skills.txt</span>
   </div>
 
   <div class="icon clients-icon" data-dialog="clients-dialog">
-      <i class="fa fa-user-circle fa-3x" aria-hidden="true"></i> 
+      <i class="fa fa-user-circle fa-2x" aria-hidden="true"></i> 
       <span>Clients</span>
   </div>
 
-  <div class="icon contact-icon">
-    <i class="fa fa-envelope fa-3x" aria-hidden="true"></i>
-    <span>Contact Me</span>
-  </div>
+  <!-- <div class="icon contact-icon"> -->
+    <!-- <i class="fa fa-envelope fa-3x" aria-hidden="true"></i> -->
+    <!-- <span>Contact Me</span> -->
+  <!-- </div> -->
 
-  <div class="icon blog-icon">
-    <i class=""></i>
-    <span></span>
+  <div class="icon blog-icon" data-dialog="blog-dialog">
+    <i class="fa fa-book fa-2x" aria-hidden="true"></i>
+    <span>Blog</span>
   </div>
 
   <div class="ui-widget-content dialog skills-dialog" title="Skills">
@@ -38,6 +38,16 @@ layout: default
     <li>Human Made</li>
     <li>Mount Mansfield Media</li>
     <li>Above The Clouds</li>
+  </div>
+
+  <div class="ui-widget-content dialog blog-dialog" title="Blog">
+    {% for post in site.posts %}
+      <article class="condensed-blog-post">
+        <time>{{post.date | date: '%B %d, %Y'}}</time>
+        <h2>{{post.title}}</h2>
+        {{post.content | markdownify}}
+      </article>
+    {% endfor %}
   </div>
  
   <div class="container align-right">
@@ -66,28 +76,6 @@ layout: default
           <input type="text" name="_gotcha" style="display:none" />
           <input type="submit" class="send" value="Send">
       </form>
-
     </div>
   </div>
-
 </div>
-
-
-<div class="home">
-  <div class="container">
-  {% for post in site.posts %}
-    <article class="single-blog-post">
-
-      <time>{{post.date | date: '%B %d, %Y'}}</time>
-
-      <h2>{{post.title}}</h2>
-
-      {{post.content | markdownify}}
-
-    </article>
-
-  {% endfor %}
-
-  </div>
-</div>
-
