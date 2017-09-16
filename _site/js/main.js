@@ -3,9 +3,9 @@ $( function() {
   $( ".draggable" ).draggable();
   $( ".dialog" ).dialog({
     autoOpen: false,
-    width: 450,
+    width: 530,
     minHeight: 240,
-    maxHeight: 650,
+    maxHeight: 720,
     show: {
         effect: "drop",
         duration: 300
