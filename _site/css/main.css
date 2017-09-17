@@ -65,10 +65,15 @@ a:hover, .contact-me:hover {
   margin-right: 3px;
   color: #A1AABD !important; }
 
-.condensed-blog-post h2 {
-  font-weight: 700;
-  font-size: 28px;
-  margin: 15px 0; }
+.condensed-blog-post {
+  margin-bottom: 60px; }
+  .condensed-blog-post p {
+    font-size: 18px;
+    margin-bottom: 15px; }
+  .condensed-blog-post h2 {
+    font-weight: 700;
+    font-size: 28px;
+    margin: 15px 0; }
 
 .dialog h4, .dialog .ui-dialog-title {
   color: #111; }
