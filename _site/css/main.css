@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Arimo);
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
@@ -137,47 +136,12 @@ a:hover, .contact-me:hover {
   margin: 0 auto;
   margin-bottom: 10px; }
 
-.success {
-  opacity: 0;
-  visibility: hidden;
+.codeable-direct {
   position: absolute;
-  text-align: center;
-  left: 0;
-  right: 0;
-  top: 50%;
-  color: #D1FDBD;
-  font-size: 25px; }
-
-.success:before {
-  content: '√';
-  left: -5px;
-  position: relative;
-  bottom: 5px; }
-
-.email-me {
-  font-size: 20px;
-  overflow: hidden; }
-
-.email-me input, textarea {
-  padding: 8px;
-  display: block;
-  width: 100%;
-  margin: 0 auto;
-  margin-bottom: 30px;
-  font-size: 20px; }
-
-.email-me input[type="submit"] {
-  transition: .2s;
-  background-color: #6078AF;
-  border: none;
-  border-radius: 0;
-  color: #FFF;
-  margin: 0 auto;
-  width: 100%; }
-
-.email-me input[type="submit"]:hover {
-  cursor: pointer;
-  padding: 12px; }
+  right: 20px;
+  bottom: 20px; }
+  .codeable-direct img {
+    max-width: 100%; }
 
 @media (max-width: 768px) {
   .popup h1 {
