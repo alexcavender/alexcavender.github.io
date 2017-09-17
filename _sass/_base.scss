@@ -180,10 +180,13 @@ a:hover, .contact-me:hover {
 
 .codeable-direct {
     position: absolute;
-    right: 20px;
-    bottom: 20px;
+    right: 40px;
+    bottom: 40px;
     img {
         max-width: 100%;
+    }
+    @media(max-width: 768px){
+        position: static;
     }
 }
 

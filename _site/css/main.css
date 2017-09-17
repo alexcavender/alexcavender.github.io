@@ -138,10 +138,13 @@ a:hover, .contact-me:hover {
 
 .codeable-direct {
   position: absolute;
-  right: 20px;
-  bottom: 20px; }
+  right: 40px;
+  bottom: 40px; }
   .codeable-direct img {
     max-width: 100%; }
+  @media (max-width: 768px) {
+    .codeable-direct {
+      position: static; } }
 
 @media (max-width: 768px) {
   .popup h1 {
