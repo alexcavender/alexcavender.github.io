@@ -70,9 +70,6 @@ h2 {
     font-size: 19px;
     font-weight: 100;
     margin-top: 3px;
-    
-    
-    text-transform: uppercase;
 }
 
 h4 {
@@ -85,6 +82,12 @@ a:hover, .contact-me:hover {
     color: #A1AABD !important;
 }
 
+
+.article {
+    h2 {
+        
+    }
+}
 
 .dialog {
     h4, .ui-dialog-title {
