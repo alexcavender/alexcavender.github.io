@@ -65,6 +65,11 @@ a:hover, .contact-me:hover {
   margin-right: 3px;
   color: #A1AABD !important; }
 
+.article h2 {
+  font-weight: 700;
+  font-size: 28px;
+  margin: 15px 0; }
+
 .dialog h4, .dialog .ui-dialog-title {
   color: #111; }
 
