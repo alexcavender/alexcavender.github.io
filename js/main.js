@@ -3,7 +3,7 @@ $( function() {
   $( ".draggable" ).draggable();
   $( ".dialog" ).dialog({
     autoOpen: false,
-    width: 530,
+    width: '82%',
     minHeight: 240,
     maxHeight: 720,
     show: {
