@@ -1,0 +1,15 @@
+{
+  "lang": "en-GB",
+  "name": "Alembic",
+  "short_name": "Alembic",
+  "theme_color": "#24292e",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/assets/logo.svg",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone"
+}
