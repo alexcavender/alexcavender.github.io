@@ -14,6 +14,6 @@ excerpt: "Web"
 - PHP, HTML, CSS
 - WordPress Plugin & Theme Development
 - Laravel
-- Javascript
-- Meteor.js
+- JavaScript
+- Meteor
 

@@ -88,14 +88,11 @@ css_inline: true # Will insert all styles into a single <style> block in the <he
 # 8. Site navigation
 navigation_header:
   Home: /
-  Elements: /elements/
   Blog: /blog/
-  Categories: /categories/
-  Search: /search/
-  Fork Alembic: https://github.com/daviddarnes/alembic
+
 
 navigation_footer:
-  Created by David Darnes: https://darn.es
+  Made with Jekyll & Alembic
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   Twitter: https://twitter.com/acavbeats
