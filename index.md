@@ -1,6 +1,7 @@
 ---
 title: Home
-feature_text: |
+feature_text: | Hi there!
+My name is Alex Cavender. I'm a freelance developer based in Vermont. It's great to meet you.
 
 feature_image: "https://picsum.photos/1300/400?image=989"
 excerpt: "Web"

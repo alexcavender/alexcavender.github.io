@@ -37,13 +37,6 @@
   },
   
   {
-    "title": "Home",
-    "excerpt": "Web\n",
-    "content": "Github  github\n\n Twitter  twitter\n\n\nSkills\n\n\n  PHP, HTML, CSS\n  WordPress Plugin &amp; Theme Development\n  Laravel\n  JavaScript\n  Meteor\n\n\n",
-    "url": "/"
-  },
-  
-  {
     "title": "Search",
     "excerpt": "Search for a page or post you’re looking for\n",
     "content": "{% include site-search.html %}\n",
