@@ -72,9 +72,9 @@ defaults:
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
-title: "Alembic" # Site name or title, also used in jekyll-seo-tag
+title: "AlexCavender.com" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logo.svg" # Site logo, also used in jekyll-seo-tag
-description: "Vermont based Web Developer" # Site description and default description, also used in jekyll-seo-tag
+description: "Vermont Web Developer" # Site description and default description, also used in jekyll-seo-tag
 url: "https://alexcavender.com" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: "https://github.com/daviddarnes/alembic"

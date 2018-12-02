@@ -1,8 +1,7 @@
 ---
-title: AlexCavender.com
+title: Home
 feature_text: |
 
-  Something New
 feature_image: "https://picsum.photos/1300/400?image=989"
 excerpt: "Web"
 ---
